@@ -2,9 +2,9 @@ import java.util.ArrayList;
 
 public class Example {
     public void something(){
-        ArrayList list = new ArrayList();
+        int [] array = new int[(int)Math.random()*1000];
         try{
-            list.get(110);
+            int i = array[(int)Math.random()*1000];
         } catch (IndexOutOfBoundsException e){
             System.out.println("Wow");
         }
